@@ -5,10 +5,10 @@ using namespace std;
 int main() {
     float weight_lb, height_in, bmi;
     
-    cout << "Enter your weight: ";
+    cout << "Enter your weight (in pounds): ";
     cin >> weight_lb;
     
-    cout << "Enter your height: ";
+    cout << "Enter your height (in inches): ";
     cin >> height_in;
     
     bmi = 703 * weight_lb / height_in;
